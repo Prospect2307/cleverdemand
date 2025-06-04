@@ -55,7 +55,7 @@
     <div class="container mb-4 mt-4">
         <div class="row">
             <!-- Main Content -->
-            <div class="col-12 col-md-9">
+            <div class="col-12 col-md-9 border-end">
                 <div class="text-start mb-3">
                     <span class="featured-label fw-bold">Latest News</span>
                 </div>
@@ -140,7 +140,7 @@
                         </div>
                     <?php endforeach; ?>
                     <div class="text-center ">
-                        <button class="btn btn-primary">Show More <i class="bi bi-arrow-right-circle"></i></button>
+                        <button class="btn btn-primary">Show More <i class="bi bi-arrow-down-circle ms-2"></i></button>
                     </div>
                 </div>
 
@@ -172,39 +172,58 @@
                     <!-- Carousel Items -->
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="...">
-                            <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="...">
-                            <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="...">
+                            <div>
+                                <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                                <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                                <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="...">
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="...">
-                            <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="...">
-                            <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="...">
+                            <div>
+                                <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                                <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                                <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="...">
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="...">
-                            <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="...">
-                            <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="...">
+                            <div>
+                                <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                                <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="...">
+                            </div>
+                            <div>
+                                <img src="https://dummyimage.com/600x300/000/fff" class="d-block w-100" alt="...">
+                            </div>
                         </div>
                     </div>
                 </div>
-                  <div class="col-12 mt-4">
-                <div class="card mt-3 mt-lg-0 bg-light">
-                    <div class="card-body p-3 shadow-sm">
-                        <h5 class="card-title fs-6 fw-semibold">Subscribe to Our Newsletter</h5>
-                        <div class="input-group mb-3">
-                            <input type="email" class="form-control form-control-sm" placeholder="Enter your email"
-                                aria-label="Email" required>
-                            <button class="btn btn-primary btn-sm" type="button">Subscribe</button>
+                <div class="col-12 mt-4">
+                    <div class="card mt-3 mt-lg-0 bg-light">
+                        <div class="card-body p-3 shadow-sm">
+                            <h5 class="card-title fs-6 fw-semibold">Subscribe to Our Newsletter</h5>
+                            <div class="input-group mb-3">
+                                <input type="email" class="form-control form-control-sm" placeholder="Enter your email"
+                                    aria-label="Email" required>
+                                <button class="btn btn-primary btn-sm" type="button">Subscribe</button>
+                            </div>
+                            <p class="small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit,
+                                recusandae?
+                            </p>
                         </div>
-                        <p class="small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, recusandae?
-                        </p>
                     </div>
                 </div>
-            </div>
 
             </div>
-          
+
         </div>
     </div>
 
