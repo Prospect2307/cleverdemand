@@ -95,6 +95,23 @@
             <!-- Center Column (Main Content) -->
             <div class="col-md-6">
                 <p><?= esc($newsItem['content']) ?></p>
+                <div class="d-flex gap-2 mt-3">
+                    <div class="d-flex align-items-center border rounded-pill px-2 py-1">
+                        <span class="d-inline-block me-1 rounded-circle"
+                            style="width: 10px; height: 10px; background-color: #f7df1e;"></span>
+                        AI
+                    </div>
+                    <div class="d-flex align-items-center border rounded-pill px-2 py-1">
+                        <span class="d-inline-block me-1 rounded-circle"
+                            style="width: 10px; height: 10px; background-color: #41b883;"></span>
+                        Cybersequrity
+                    </div>
+                    <div class="d-flex align-items-center border rounded-pill px-2 py-1">
+                        <span class="d-inline-block me-1 rounded-circle"
+                            style="width: 10px; height: 10px; background-color:rgb(129, 184, 65);"></span>
+                        Computers
+                    </div>
+                </div>
             </div>
 
             <!-- Right Column (Relevant Articles) -->

@@ -26,12 +26,15 @@
             color: #27548A;
         }
 
-     
+        .nav-pills .nav-link.active {
+            background-color: #254D70 !important;
+            color: white !important;
+        }
 
         /* Make content scrollable vertically if needed */
         #articleContentContainer {
-            max-height: 80vh;
-            overflow-y: auto;
+            /* max-height: 80vh;
+            overflow-y: auto; */
             padding: 10px;
         }
     </style>
@@ -55,7 +58,8 @@
                 <div>
                     <h2 class="fw-bold"><?= esc($interviewItem['title']) ?></h2>
                     <p class="text-danger"><?= esc($interviewItem['category']) ?></p>
-                    <small>By Cleverdemand | Date: <?= esc($interviewItem['date']) ?> | <?= esc($interviewItem['read_time']) ?></small>
+                    <small>By Cleverdemand | Date: <?= esc($interviewItem['date']) ?> |
+                        <?= esc($interviewItem['read_time']) ?></small>
                 </div>
             </div>
             <div class="col-md-6 text-end">
@@ -71,8 +75,8 @@
                 </div>
 
                 <div class="nav flex-column nav-pills" id="articleTabs" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active" id="tab-main-article" data-bs-toggle="pill" href="#tab-article-content" role="tab"
-                        aria-controls="tab-article-content" aria-selected="true">
+                    <a class="nav-link active" id="tab-main-article" data-bs-toggle="pill" href="#tab-article-content"
+                        role="tab" aria-controls="tab-article-content" aria-selected="true">
                         <i class="bi bi-file-text me-2"></i>Full Article
                     </a>
 
@@ -96,16 +100,16 @@
                     $keywords = getTopKeywords($contentOriginal);
                     ?>
 
-                    <?php foreach ($keywords as $keyword): 
+                    <?php foreach ($keywords as $keyword):
                         $keywordId = 'tab-keyword-' . htmlspecialchars($keyword);
                         $keywordHref = '#tab-content-' . htmlspecialchars($keyword);
-                    ?>
-                        <a class="nav-link" id="<?= $keywordId ?>" data-bs-toggle="pill" href="<?= $keywordHref ?>" role="tab" aria-controls="<?= $keywordHref ?>" aria-selected="false">
+                        ?>
+                        <a class="nav-link" id="<?= $keywordId ?>" data-bs-toggle="pill" href="<?= $keywordHref ?>"
+                            role="tab" aria-controls="<?= $keywordHref ?>" aria-selected="false">
                             <i class="bi bi-tag me-2"></i><?= ucfirst(htmlspecialchars($keyword)) ?>
                         </a>
                     <?php endforeach; ?>
                 </div>
-
                 <!-- Social Share and Subscribe -->
                 <div class="mt-4">
                     <div class="text-start mb-3">
@@ -129,24 +133,84 @@
             <div class="col-md-6">
                 <div class="tab-content" id="articleTabsContent">
                     <!-- Full Article tab content -->
-                    <div class="tab-pane fade show active" id="tab-article-content" role="tabpanel" aria-labelledby="tab-main-article">
+                    <div class="tab-pane fade show active" id="tab-article-content" role="tabpanel"
+                        aria-labelledby="tab-main-article">
                         <div id="articleContentContainer">
                             <?= nl2br(esc($contentOriginal)) ?>
                         </div>
                     </div>
 
-                    <?php 
+                    <?php
                     // For each keyword tab, show same article content (for Bootstrap tabs to work)
                     foreach ($keywords as $keyword):
                         $tabContentId = 'tab-content-' . htmlspecialchars($keyword);
-                    ?>
-                    <div class="tab-pane fade" id="<?= $tabContentId ?>" role="tabpanel" aria-labelledby="tab-keyword-<?= htmlspecialchars($keyword) ?>">
-                        <div id="articleContentContainer-<?= htmlspecialchars($keyword) ?>">
-                            <?= nl2br(esc($contentOriginal)) ?>
+                        ?>
+                        <div class="tab-pane fade" id="<?= $tabContentId ?>" role="tabpanel"
+                            aria-labelledby="tab-keyword-<?= htmlspecialchars($keyword) ?>">
+                            <div id="articleContentContainer-<?= htmlspecialchars($keyword) ?>">
+                                <?= nl2br(esc($contentOriginal)) ?>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+
+                    <!-- Nav Pills -->
+                    <div class=" p-2" style="background-color:rgba(37, 77, 112, 0.06);">
+                        <ul class="nav nav-pills nav-justified mb-3" id="aboutTabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="guest-tab" data-bs-toggle="pill" href="#aboutGuest"
+                                    role="tab" aria-controls="aboutGuest" aria-selected="true">About Guest</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="company-tab" data-bs-toggle="pill" href="#aboutCompany"
+                                    role="tab" aria-controls="aboutCompany" aria-selected="false">About Company</a>
+                            </li>
+                        </ul>
+
+                        <!-- Tab Content -->
+                        <div class="tab-content" id="aboutTabsContent">
+                            <!-- About Guest Content -->
+                            <div class="tab-pane fade show active" id="aboutGuest" role="tabpanel"
+                                aria-labelledby="guest-tab">
+                                <p>
+                                    This section provides details about the guest. The guest is a renowned industry
+                                    expert with over 15 years of experience in AI and digital transformation. Known for
+                                    their thought leadership, they have spoken at over 50 global conferences and
+                                    contributed to various whitepapers.
+                                </p>
+                            </div>
+
+                            <!-- About Company Content -->
+                            <div class="tab-pane fade" id="aboutCompany" role="tabpanel" aria-labelledby="company-tab">
+                                <p>
+                                    This section provides insights into the guest's company. Founded in 2010, the
+                                    company is a leading innovator in the field of cloud-based AI solutions, with a
+                                    global presence across 20+ countries and partnerships with Fortune 500 companies.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex gap-2 mt-3">
+                        <div class="d-flex align-items-center border rounded-pill px-2 py-1">
+                            <span class="d-inline-block me-1 rounded-circle"
+                                style="width: 10px; height: 10px; background-color: #f7df1e;"></span>
+                            AI
+                        </div>
+                        <div class="d-flex align-items-center border rounded-pill px-2 py-1">
+                            <span class="d-inline-block me-1 rounded-circle"
+                                style="width: 10px; height: 10px; background-color: #41b883;"></span>
+                            Cybersequrity
+                        </div>
+                        <div class="d-flex align-items-center border rounded-pill px-2 py-1">
+                            <span class="d-inline-block me-1 rounded-circle"
+                                style="width: 10px; height: 10px; background-color:rgb(129, 184, 65);"></span>
+                            Computers
                         </div>
                     </div>
-                    <?php endforeach; ?>
+
                 </div>
+
             </div>
 
             <!-- Right Sidebar -->
