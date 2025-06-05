@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= esc($newsItem['title']) ?></title>
+    <title><?= esc($pressReleaseItem['title']) ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
@@ -15,8 +15,8 @@
     <nav class="container mt-3" aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">Home</a></li>
-            <li class="breadcrumb-item"><a href="/news">News</a></li>
-            <li class="breadcrumb-item active" aria-current="page"><?= esc($newsItem['title']) ?></li>
+            <li class="breadcrumb-item"><a href="/news">Press Release</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><?= esc($pressReleaseItem['title']) ?></li>
         </ol>
     </nav>
     <style>
@@ -40,15 +40,15 @@
             <!-- Title & Meta -->
             <div class="col-md-5 d-flex align-items-center">
                 <div>
-                    <h2 class="fw-bold"><?= esc($newsItem['title']) ?></h2>
-                    <p class="text-danger"><?= esc($newsItem['category']) ?></p>
-                    <small class="">By Cleverdemand | Date: <?= esc($newsItem['date']) ?> |
-                        <?= esc($newsItem['read_time']) ?></small>
+                    <h2 class="fw-bold"><?= esc($pressReleaseItem['title']) ?></h2>
+                    <p class="text-danger"><?= esc($pressReleaseItem['category']) ?></p>
+                    <small class="">By Cleverdemand | Date: <?= esc($pressReleaseItem['date']) ?> |
+                        <?= esc($pressReleaseItem['read_time']) ?></small>
                 </div>
             </div>
             <!-- Image -->
             <div class="col-md-6 text-end">
-                <img src="<?= esc($newsItem['image']) ?>" class="img-fluid rounded" alt="News Image">
+                <img src="<?= esc($pressReleaseItem['image']) ?>" class="img-fluid rounded" alt="News Image">
             </div>
         </div>
 
@@ -94,7 +94,7 @@
 
             <!-- Center Column (Main Content) -->
             <div class="col-md-6">
-                <p><?= esc($newsItem['content']) ?></p>
+                <p><?= esc($pressReleaseItem['content']) ?></p>
             </div>
 
             <!-- Right Column (Relevant Articles) -->

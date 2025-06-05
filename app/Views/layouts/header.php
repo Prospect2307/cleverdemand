@@ -181,69 +181,76 @@
 
 
     /* search section responsive */
-      .search-container {
-    position: relative;
-    width: 250px;
-  }
-
-  .input-group {
-    position: relative;
-    width: 100%;
-  }
-
-  .form-control {
-    height: 40px;
-    padding-right: 40px;
-  }
-
-  .btn-link {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    border: none;
-    background: none;
-    z-index: 10;
-  }
-
-  /* Mobile Responsive Styles */
-  @media (max-width: 991px) {
     .search-container {
-      width: 100%;
-      margin-top: 10px;
+      position: relative;
+      width: 250px;
     }
+
     .input-group {
+      position: relative;
       width: 100%;
     }
-    .form-control {
-      min-width: 0 !important;
-      width: 100% !important;
-      height: 36px;
-      padding-right: 36px;
-    }
-    .btn-link {
-      right: 8px;
-    }
-    .bi-search {
-      font-size: 14px;
-    }
-  }
 
-  @media (max-width: 576px) {
-    .search-container {
-      margin-top: 8px;
-    }
     .form-control {
-      height: 32px;
-      padding: 6px 32px 6px 12px;
+      height: 40px;
+      padding-right: 40px;
     }
+
     .btn-link {
-      right: 6px;
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      border: none;
+      background: none;
+      z-index: 10;
     }
-    .bi-search {
-      font-size: 12px;
+
+    /* Mobile Responsive Styles */
+    @media (max-width: 991px) {
+      .search-container {
+        width: 100%;
+        margin-top: 10px;
+      }
+
+      .input-group {
+        width: 100%;
+      }
+
+      .form-control {
+        min-width: 0 !important;
+        width: 100% !important;
+        height: 36px;
+        padding-right: 36px;
+      }
+
+      .btn-link {
+        right: 8px;
+      }
+
+      .bi-search {
+        font-size: 14px;
+      }
     }
-  }
+
+    @media (max-width: 576px) {
+      .search-container {
+        margin-top: 8px;
+      }
+
+      .form-control {
+        height: 32px;
+        padding: 6px 32px 6px 12px;
+      }
+
+      .btn-link {
+        right: 6px;
+      }
+
+      .bi-search {
+        font-size: 12px;
+      }
+    }
   </style>
 
 </head>
@@ -381,14 +388,16 @@
             </li>
 
             <li class="nav-item mx-3">
-              <a class="nav-link text-light podcast-link" href="#">
-                Interviews</i>
-                <span class="trending-badge">Trending</span>
-              </a>
-            </li>
 
+              <a class="nav-link active text-light" aria-current="page" href="<?= base_url('interviews/') ?>">
+                Interviews
+                <span class="trending-badge">Trending</span></a>
+            </li>
             <li class="nav-item mx-3">
-              <a class="nav-link text-light">Article</a>
+              <a class="nav-link text-light" href=" <?= base_url(relativePath: 'pressrelease/') ?>">Press Release</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link text-light" href="<?= base_url('articles/') ?>">Article</a>
             </li>
             <li class="nav-item mx-3">
               <a class="nav-link text-light">Resources</a>

@@ -1,0 +1,140 @@
+CRITICAL - 2025-06-05 08:32:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "interviews.php"
+[Method: GET, Route: interviews]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('interviews.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('interviews', [], true)
+ 3 APPPATH\Controllers\Interview.php(37): view('interviews', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Interview->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interview))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 08:32:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "interviews.php"
+[Method: GET, Route: interviews]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('interviews.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('interviews', [], true)
+ 3 APPPATH\Controllers\Interview.php(37): view('interviews', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Interview->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interview))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 08:33:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "interviews.php"
+[Method: GET, Route: interviews]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('interviews.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('interviews', [], true)
+ 3 APPPATH\Controllers\Interview.php(37): view('interviews', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Interview->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interview))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 08:33:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "interviews.php"
+[Method: GET, Route: interviews]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('interviews.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('interviews', [], true)
+ 3 APPPATH\Controllers\Interview.php(37): view('interviews', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Interview->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interview))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 08:36:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "interviews.php"
+[Method: GET, Route: interviews]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('interviews.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('interviews', [], true)
+ 3 APPPATH\Controllers\Interview.php(37): view('interviews', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Interview->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interview))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 08:36:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "interviews.php"
+[Method: GET, Route: interviews]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('interviews.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('interviews', [], true)
+ 3 APPPATH\Controllers\Interview.php(37): view('interviews', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Interview->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interview))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 08:46:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "view_interview.php"
+[Method: GET, Route: interviews/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_interview.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('view_interview', [], true)
+ 3 APPPATH\Controllers\Interview.php(47): view('view_interview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Interview->view('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interview))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 11:14:16 --> ErrorException: Undefined array key "content"
+[Method: GET, Route: interviews]
+in APPPATH\Views\interviews.php on line 135.
+ 1 APPPATH\Views\interviews.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "content"', 'C:\\xampp\\htdocs\\cleverdemand\\app\\Views\\interviews.php', 135)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\cleverdemand\\app\\Views\\interviews.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('interviews', [], true)
+ 5 APPPATH\Controllers\Interview.php(43): view('interviews', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Interview->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interview))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 11:14:24 --> ErrorException: Undefined array key "content"
+[Method: GET, Route: interviews]
+in APPPATH\Views\interviews.php on line 135.
+ 1 APPPATH\Views\interviews.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "content"', 'C:\\xampp\\htdocs\\cleverdemand\\app\\Views\\interviews.php', 135)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\cleverdemand\\app\\Views\\interviews.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('interviews', [], true)
+ 5 APPPATH\Controllers\Interview.php(43): view('interviews', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Interview->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interview))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 11:14:27 --> ErrorException: Undefined array key "content"
+[Method: GET, Route: interviews]
+in APPPATH\Views\interviews.php on line 135.
+ 1 APPPATH\Views\interviews.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "content"', 'C:\\xampp\\htdocs\\cleverdemand\\app\\Views\\interviews.php', 135)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\cleverdemand\\app\\Views\\interviews.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('interviews', [], true)
+ 5 APPPATH\Controllers\Interview.php(43): view('interviews', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Interview->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interview))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 12:18:58 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: interviews/2]
+in APPPATH\Views\view_interview.php on line 69.
+ 1 APPPATH\Views\view_interview.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\xampp\\htdocs\\cleverdemand\\app\\Views\\view_interview.php', 69)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\cleverdemand\\app\\Views\\view_interview.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('view_interview', [], true)
+ 5 APPPATH\Controllers\Interview.php(104): view('view_interview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Interview->view('2')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interview))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
