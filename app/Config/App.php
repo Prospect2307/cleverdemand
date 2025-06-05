@@ -16,7 +16,7 @@ class App extends BaseConfig
      *
      * E.g., http://example.com/
      */
-    public string $baseURL = 'https://prospect2307.github.io/cleverdemand/';
+    public string $baseURL = 'http://localhost/cleverdemand/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
