@@ -62,7 +62,7 @@
                     <!-- Category Dropdown -->
                     <div>
                         <select name="category" class="form-select" onchange="this.form.submit()">
-                            <option value="">All Categories</option>
+                            <option value="">Select Industry</option>
                             <?php
                             $categories = ['MarTech', 'HRTech', 'Fintech', 'Consumer Tech'];
                             foreach ($categories as $cat) {
@@ -76,7 +76,7 @@
                     <!-- Subcategory Dropdown -->
                     <div>
                         <select name="subcategory" class="form-select" onchange="this.form.submit()">
-                            <option value="">All Subcategories</option>
+                            <option value="">Select Category</option>
                             <?php
                             $selectedCategory = $_GET['category'] ?? '';
                             $subcategoryOptions = [];

@@ -16,3 +16,10 @@ $routes->get('articles', 'Articles::index');
 $routes->get('articles/(:num)', 'Articles::view/$1');
 $routes->get('pressrelease', 'PressRelease::index');
 $routes->get('pressrelease/(:num)', 'PressRelease::view/$1');
+$routes->get('/dbtest', 'DbTest::index');
+$routes->get('login', 'Auth::login');
+
+
+
+// dashboard
+$routes->get('dashboard', 'Dashboard\Home::index');
